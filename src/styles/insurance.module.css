@@ -1,0 +1,98 @@
+body {
+    font-family: Motor;
+}
+
+
+@media screen and (max-width: 380px) {
+    .main__insurance {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .header {
+        margin-top: 70px;
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+    .section__gift {
+        display: flex;
+        align-items: center;
+        width: 320px;
+        justify-content: space-around;
+        border-bottom: #ffd503 solid 1px;
+        padding-bottom: 5px;
+    }
+    .gift__text {
+        margin: 0;
+        margin-top: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .insurance__list {
+        list-style: none;
+        padding: 0;
+    }
+    .insurance__item {
+        display: flex;
+        margin-bottom: 10px;
+    }
+    .insurance__section {
+        display: flex;
+        margin: 0;
+        width: 300px;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        border-bottom: lightgray solid 1px;
+        margin-left: 10px;
+        padding-bottom: 10px;
+    }
+    .insurance__text {
+        margin: 0;
+        font-size: 18px;
+    }
+    .phone__input {
+        display: block;
+        border: none;
+        padding-bottom: 10px;
+        border-bottom: lightgray solid 1px;
+        width: 300px;
+        margin-left: 10px;
+    }
+    .phone__input:active {
+        border: none;
+    }
+    .input__text {
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 15px;
+        font-size: 15px;
+        color: rgba(84,81,87,0.71);
+    }
+    .checkbox {
+        width: 24px;
+        height: 24px;
+        border-radius: 70px;
+        align-self: flex-end;
+        padding: 0;
+    }
+    .insurance__image{
+        margin-left: 10px;
+    }
+    .count__button {
+        display: flex;
+        margin: 0 auto;
+        border: none;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .count__text {
+        display: flex;
+        margin: 0 auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .insurance__partner {
+        width: 320px;
+    }
+}
