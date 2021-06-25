@@ -1,0 +1,103 @@
+body {
+    font-family: Motor;
+}
+h3,p {
+    margin: 0;
+}
+
+@media screen and (max-width: 375px){
+    .main__autodrivers {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .header__text {
+        border: none;
+        background-color: white;
+        color: #2492ff;
+    }
+    .cards {
+        display: flex;
+        width: 80%;
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-bottom: 30px;
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .choose__car {
+        width: 50px;
+        height: 50px;
+        border-radius: 45%;
+        border: none;
+        background-image: url("/static/img/car-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .choose__driver{
+        width: 50px;
+        height: 50px;
+        border-radius: 45%;
+        border: none;
+        background-image: url("/static/img/driver-icon.png");
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    .choose__car:active {
+        background-color: #ffd503;
+    }
+    .choose__driver:active{
+        background-color: #ffd503;
+    }
+    .card__text {
+        margin: 0;
+        margin-top: 5px;
+    }
+    .cars {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        border-top: lightgray solid 1px;
+        padding-top: 10px;
+    }
+    .car__info {
+        /*margin-left: 20px;*/
+    }
+    .car {
+        display: flex;
+        width: 90%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: lightgray solid 1px;
+    }
+    .car__number{
+        margin: 0;
+        font-size: 15px;
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+    .car__type {
+        margin: 0;
+        color: rgba(84,81,87,0.52);
+    }
+    .add__car {
+        width: 90%;
+        margin: 0 auto;
+        margin-right: 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: lightgray solid 1px;
+        padding-bottom: 10px;
+        align-items: center;
+        border: none;
+        background-color: white;
+    }
+    .text__add{
+        color: #2492ff;
+        font-size: 18px;
+        font-weight: normal;
+    }
+}

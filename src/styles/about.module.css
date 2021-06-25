@@ -1,0 +1,16 @@
+body {
+    font-family: Motor;
+}
+
+@media screen and (max-width: 375px){
+    .main__about {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    .button {
+        border: none;
+        background-color: white;
+        padding: 0;
+        padding: 0;
+    }
+}
