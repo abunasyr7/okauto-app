@@ -22,52 +22,59 @@ import {
     text__add,
 } from '../styles/profile.module.css'
 import {Footer} from "../components/footer";
+import Layout from "../components/Layout";
+import {Link} from "gatsby";
 const Profile = () => {
     return (
-        <section className={main__profile}>
-            <header>
-                <div className={header__top}>
-                    <img src="/static/img/back-button-icon.png" alt="back-button-icon" width={24} height={24}/>
-                    <p className={header__text}>Сохранить</p>
+        <Layout>
+            <section className={main__profile}>
+                <header>
+                    <div className={header__top}>
+                        <Link to="/settings/">
+                            <button>
+                                <img src="/static/img/back-button-icon.png" alt="back-button-icon" width={24} height={24}/>
+                            </button>
+                        </Link>
+                        <p className={header__text}>Сохранить</p>
+                    </div>
+                    <h1 className={header}>Профиль</h1>
+                </header>
+                <p className={profile__text}>Личные данные</p>
+                <div className={input__photo}>
+                    <div className={circle}></div>
+                    <div className={input__info}>
+                        <input type="text" className={input} placeholder={"Имя"}/>
+                        <input type="text" className={input}/>
+                    </div>
                 </div>
-                <h1 className={header}>Профиль</h1>
-            </header>
-            <p className={profile__text}>Личные данные</p>
-            <div className={input__photo}>
-                <div className={circle}></div>
-                <div className={input__info}>
-                    <input type="text" className={input} placeholder={"Имя"}/>
-                    <input type="text" className={input}/>
+                <div className={phone__title}>
+                    <img src="/static/img/settings-phone-icon.png" alt="settings-phone-icon" width={24} height={24}/>
+                    <div className={phone__input}>
+                        <input type="text" className={input__phone} placeholder={"Номер телефона"}/>
+                        <img src="/static/img/edit-icon.png" alt="edit-icon"/>
+                    </div>
                 </div>
-            </div>
-            <div className={phone__title}>
-                <img src="/static/img/settings-phone-icon.png" alt="settings-phone-icon" width={24} height={24}/>
-                <div className={phone__input}>
-                    <input type="text" className={input__phone} placeholder={"Номер телефона"}/>
-                    <img src="/static/img/edit-icon.png" alt="edit-icon"/>
+                <p className={profile__text}>Фон для карточки</p>
+                <div className={cards}>
+                    <div className={card__color}></div>
+                    <div className={card__color}></div>
+                    <div className={card__color}></div>
+                    <div className={card__color}></div>
                 </div>
-            </div>
-            <p className={profile__text}>Фон для карточки</p>
-            <div className={cards}>
-                <div className={card__color}></div>
-                <div className={card__color}></div>
-                <div className={card__color}></div>
-                <div className={card__color}></div>
-            </div>
-            <p className={profile__text}>Личные данные</p>
-            <div className={my__car}>
-                <img src="/static/img/penalties-tab-icon.png" alt="penalties-tab-icon" width={24} height={24}/>
-                <div className={car__info}>
-                    <h4 className={car__number}>719 ALA 02</h4>
-                    <p className={car__type}>Автомобиль</p>
+                <p className={profile__text}>Личные данные</p>
+                <div className={my__car}>
+                    <img src="/static/img/penalties-tab-icon.png" alt="penalties-tab-icon" width={24} height={24}/>
+                    <div className={car__info}>
+                        <h4 className={car__number}>719 ALA 02</h4>
+                        <p className={car__type}>Автомобиль</p>
+                    </div>
                 </div>
-            </div>
-            <div className={add__car}>
-                <h3 className={text__add}>Добавить авто</h3>
-                <img src="/static/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
-            </div>
-            <Footer></Footer>
-        </section>
+                <div className={add__car}>
+                    <h3 className={text__add}>Добавить авто</h3>
+                    <img src="/static/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
+                </div>
+            </section>
+        </Layout>
     )
 }
 

@@ -1,14 +1,15 @@
 import React from "react";
 import Footer from "./footer";
-import {Link} from "gatsby";
 
-export default function Layout ({ children }) {
+const Layout = ({ children }) => {
     return(
         <div>
-            <Footer />
             <div>
                 {children}
             </div>
+            <Footer />
         </div>
     )
 }
+
+export default Layout;

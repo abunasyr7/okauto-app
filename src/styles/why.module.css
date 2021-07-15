@@ -1,0 +1,36 @@
+
+
+
+@media screen and (max-width: 375px){
+    .main__why {
+        max-width: 98%;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .header {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom: lightgray solid 1px;
+        padding-bottom: 5px;
+        margin-bottom: 20px;
+    }
+    .header__text {
+        margin: 0 auto;
+        font-size: 18px;
+    }
+    .button {
+        border: none;
+        background-color: white;
+        padding: 0;
+    }
+    h2 {
+        margin: 0;
+    }
+    .card {
+        margin-bottom: 30px;
+    }
+    .image {
+        margin-bottom: 10px;
+    }
+}

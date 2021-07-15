@@ -1,0 +1,165 @@
+
+button {
+    background-color: white;
+    border: none;
+    padding: 0;
+}
+@media screen and (max-width: 375px) {
+    .main__premium {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .header__premium {
+        width: 100%;
+        display: flex;
+        margin: 0;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .header__text {
+        margin: 0;
+        max-width: 100%;
+        text-align: left;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+    .info__payments {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .info__section {
+        width: 48%;
+        min-height: 200px;
+        text-align: center;
+        background-color: #ffd503;
+        border-radius: 10px;
+    }
+    .info__section:nth-child(2) {
+        background-color: lightgray;
+    }
+    h4 {
+        margin: 0 auto;
+        margin-top: 15px;
+        text-transform: uppercase;
+        max-width: 150px;
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .card__info {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        text-align: center;
+        max-width: 160px;
+    }
+    h5 {
+        margin: 0;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .mini__cards {
+        display: grid;
+        margin: 0 auto;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .mini__card {
+        box-shadow: 3px 2px 20px 1px rgba(41, 64, 81, 0.2);
+        border-radius: 10px;
+    }
+    .mini__card:nth-child(4) {
+        background-color: #2492ff;
+        color: white;
+    }
+    .card__text {
+        margin-left: 10px;
+    }
+    .border__black {
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        border-radius: 10px 10px 0 0;
+    }
+    .border__blue {
+        width: 100%;
+        height: 5px;
+        background-color: #2492ff;
+        border-radius: 10px 10px 0 0;
+    }
+    .border__yellow {
+        width: 100%;
+        height: 5px;
+        background-color: #ffd503;
+        border-radius: 10px 10px 0 0;
+    }
+    .border__card:nth-child(4) {
+        background-color: #2492ff;
+    }
+    .text__image {
+        margin-left: 10px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .card__section {
+        display: grid;
+        grid-template-columns: 80% 20%;
+        align-items: center;
+    }
+    .circle__black {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: black solid 1px;
+    }
+    .circle__blue {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: #2492ff solid 1px;
+    }
+    .circle__yellow {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: #ffd503 solid 1px;
+    }
+    .circle__white {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        border: white solid 1px;
+    }
+    .notification {
+        border: lightgray solid 1px;
+        border-radius: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .text {
+        color: lightgray;
+        font-size: 15px;
+    }
+    .add__car {
+        width: 100%;
+        font-weight: bold;
+        background-color: #ffd503;
+        border-radius: 10px;
+        font-size: 20px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-bottom: 20px;
+    }
+}

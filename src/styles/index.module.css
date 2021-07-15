@@ -1,6 +1,4 @@
-body {
-    font-family: Motor;
-}
+
 
 @media screen and (max-width: 375px) {
     .main__body {
@@ -34,6 +32,7 @@ body {
         border: lightgray solid 1px;
         border-radius: 10px;
         align-items: center;
+        margin-bottom: 30px;
     }
     .driver__text {
         margin-top: 10px;
@@ -45,7 +44,17 @@ body {
         color: dodgerblue;
     }
     .button__check {
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
         background-color: #ffd503;
+        width: 95%;
+        padding: 10px 0;
+        justify-self: center;
+        font-size: 22px;
+        margin-bottom: 10px;
+        border-radius: 10px;
+        font-weight: bold;
     }
     .check__driver {
         margin: 0;
@@ -63,4 +72,22 @@ body {
     .carousel .slides {
         position: absolute;
     }
+    .driver {
+        min-height: 120px;
+        border-radius: 10px;
+        max-width: 320px;
+        border: lightgray solid 1px;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .driver__title {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 10px;
+    }
+    .driver__ava {
+        display: flex;
+        align-items: center;
+    }
+
 }

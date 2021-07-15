@@ -1,11 +1,4 @@
-@font-face {
-    font-family: "Motor";
-    src: url("/src/fonts/Motor4F.ttf");
-}
 
-body {
-    font-family: Motor;
-}
 
 @media screen and (max-width: 375px){
     .main__notifications {
