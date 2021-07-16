@@ -15,10 +15,22 @@ import {
     car__type,
     text__add,
     add__car,
+    popup,
+    popup__body,
+    popup__content,
+    popup__close,
+    popup__title,
+    popup__number,
+    popup__input,
+    popup__image,
+    popup__button
 } from "../styles/autodrivers.module.css"
 import {Footer} from "../components/footer";
 import Layout from "../components/Layout";
 import {Link} from "gatsby";
+
+
+
 const AutoDriver = () => {
     return (
         <Layout>
@@ -53,10 +65,25 @@ const AutoDriver = () => {
                         <img src="/static/img/horizontal-disclosure-icon.png" alt="horizontal-disclosure-icon" width={24} height={24}/>
                     </div>
                 </div>
-                <div className={add__car}>
-                    <h3 className={text__add}>Добавить авто</h3>
-                    <img src="/static/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
-                </div>
+                    <button className={add__car}>
+                        <h3 className={text__add}>Добавить авто</h3>
+                        <img src="/static/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
+                    </button>
+                <section className={popup}>
+                    <div className={popup__body}>
+                        <div className={popup__content}>
+                            <button className={popup__close}>
+                                <img src="/static/img/close-button-icon.png" alt="close-button-icon" className={popup__image}/>
+                            </button>
+                            <h2 className={popup__title}>Новое авто</h2>
+                            <p className={popup__number}>Госномер авто</p>
+                            <form action="">
+                                <input  className={popup__input}/>
+                                <button className={popup__button}>Добавить</button>
+                            </form>
+                        </div>
+                    </div>
+                </section>
             </section>
         </Layout>
     )
