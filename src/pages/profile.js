@@ -21,7 +21,6 @@ import {
     add__car,
     text__add,
 } from '../styles/profile.module.css'
-import {Footer} from "../components/footer";
 import Layout from "../components/Layout";
 import {Link} from "gatsby";
 const Profile = () => {
@@ -32,7 +31,7 @@ const Profile = () => {
                     <div className={header__top}>
                         <Link to="/settings/">
                             <button>
-                                <img src="/static/img/back-button-icon.png" alt="back-button-icon" width={24} height={24}/>
+                                <img src="/img/back-button-icon.png" alt="back-button-icon" width={24} height={24}/>
                             </button>
                         </Link>
                         <p className={header__text}>Сохранить</p>
@@ -48,10 +47,10 @@ const Profile = () => {
                     </div>
                 </div>
                 <div className={phone__title}>
-                    <img src="/static/img/settings-phone-icon.png" alt="settings-phone-icon" width={24} height={24}/>
+                    <img src="/img/settings-phone-icon.png" alt="settings-phone-icon" width={24} height={24}/>
                     <div className={phone__input}>
                         <input type="text" className={input__phone} placeholder={"Номер телефона"}/>
-                        <img src="/static/img/edit-icon.png" alt="edit-icon"/>
+                        <img src="/img/edit-icon.png" alt="edit-icon"/>
                     </div>
                 </div>
                 <p className={profile__text}>Фон для карточки</p>
@@ -63,7 +62,7 @@ const Profile = () => {
                 </div>
                 <p className={profile__text}>Личные данные</p>
                 <div className={my__car}>
-                    <img src="/static/img/penalties-tab-icon.png" alt="penalties-tab-icon" width={24} height={24}/>
+                    <img src="/img/penalties-tab-icon.png" alt="penalties-tab-icon" width={24} height={24}/>
                     <div className={car__info}>
                         <h4 className={car__number}>719 ALA 02</h4>
                         <p className={car__type}>Автомобиль</p>
@@ -71,7 +70,7 @@ const Profile = () => {
                 </div>
                 <div className={add__car}>
                     <h3 className={text__add}>Добавить авто</h3>
-                    <img src="/static/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
+                    <img src="/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
                 </div>
             </section>
         </Layout>

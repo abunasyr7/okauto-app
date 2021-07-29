@@ -1,57 +1,93 @@
 @import "typography.css";
 @import "layout.css";
 
+
+.main__settings {
+    margin: 0 auto 70px auto;
+}
+.header {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+.settings__list {
+    list-style: none;
+    padding: 0;
+    justify-items: flex-start;
+}
+.settings__section {
+    display: flex;
+    margin: 0 auto 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: lightgray solid 1px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.settings__item {
+    display: flex;
+}
+.settings__item:nth-child(2) {
+    margin-bottom: 20px;
+}
+.settings__item:nth-child(5) {
+    margin-bottom: 20px;
+}
+.settings__text {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    align-self: center;
+}
+.settings__subtext {
+    color: lightgray;
+    margin-top: 5px;
+}
+.settings__header {
+    margin: 0;
+}
+
+@media screen and (max-width: 415px){
+    .main__settings {
+        max-width: 390px;
+    }
+    .settings__text {
+        font-size: 19px;
+    }
+}
+
 @media screen and (max-width: 375px) {
     .main__settings {
         max-width: 350px;
-        margin: 0 auto;
     }
     .header {
-        margin-top: 70px;
         font-size: 25px;
-        margin-bottom: 40px;
-    }
-    .settings__list {
-        list-style: none;
-        padding: 0;
-        justify-items: flex-start;
-    }
-    .settings__section {
-        display: flex;
-        margin: 0;
-        width: 300px;
-        justify-content: space-between;
-        align-items: center;
-        margin-bottom: 15px;
-        border-bottom: lightgray solid 1px;
-        margin-left: 10px;
-        padding-bottom: 10px;
     }
 
-    .settings__item:nth-child(2) {
-        margin-bottom: 20px;
-    }
-    .settings__item:nth-child(5) {
-        margin-bottom: 20px;
-    }
-    .settings__item {
-        display: flex;
-    }
     .settings__text {
-        text-decoration: none;
-        color: black;
         font-size: 18px;
-        margin: 0;
-        align-self: center;
     }
     .settings__subtext {
         font-size: 15px;
-        color: lightgray;
-        margin: 0;
-        margin-top: 5px;
     }
     .settings__header {
-        margin: 0;
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .main__settings {
+        max-width: 300px;
+        margin-bottom: 60px;
+    }
+    .header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+    .settings__text {
+        font-size: 15px;
+    }
+    .image {
+        width: 20px;
+        height: 20px;
     }
 }

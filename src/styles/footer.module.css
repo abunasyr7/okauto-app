@@ -5,17 +5,22 @@
     flex-direction: row;
     justify-content: space-around;
     text-wrap: none;
+    width: 100%;
+    text-decoration: none;
+    background-color: white;
+    z-index: 4;
+    padding-bottom: 20px;
     position: fixed;
     bottom: 0;
     left: 0;
-    width: 100%;
-    text-decoration: none;
-    z-index: 4;
 }
 .footer__image {
     margin: 0 auto;
     display: flex;
     justify-self: center;
+}
+.footer__image:active {
+    fill: #2492ff;
 }
 .footer__text {
     margin: 0;
@@ -27,4 +32,10 @@
 }
 .links {
     text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+    .footer {
+        padding-bottom: 5px;
+    }
 }

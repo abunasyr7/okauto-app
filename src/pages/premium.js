@@ -21,45 +21,47 @@ import {
     notification,
     text,
     add__car,
-
+    header
 } from '../styles/premium.module.css'
 import {Link} from "gatsby";
 const Premium = () => {
     return (
         <section className={main__premium}>
-            <header className={header__premium}>
-                <Link to="/">
+            <header className={header}>
+                <div className={header__premium}>
+                    <Link to="/">
+                        <button>
+                            <img src="/img/close-button-icon.png" alt="close-button-icon" width={24} height={24}/>
+                        </button>
+                    </Link>
                     <button>
-                        <img src="/static/img/close-button-icon.png" alt="close-button-icon" width={24} height={24}/>
+                        <img src="/img/circled-intercom-icon.png" alt="circled-intercom-icon" width={24} height={24}/>
                     </button>
-                </Link>
-                <button>
-                    <img src="/static/img/circled-intercom-icon.png" alt="circled-intercom-icon" width={24} height={24}/>
-                </button>
+                </div>
             </header>
             <h1 className={header__text}>Уведомление штрафов по авто</h1>
             <div className={info__payments}>
                 <div className={info__section}>
                     <h4>Премиум</h4>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>Ежедневная проверка по ИИН авто</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>Сообщим раньше, чем по базе ЕРАП</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>50% скидка на оплату по номеру протокола</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>PUSH+SMS уведомления</p>
                 </div>
                 <div className={info__section}>
                     <h4>Бесплатно</h4>
                     <p className={card__info}>(уже подключено)</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>Проверка раз в 3 дня по ИИН</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>Данные из официальной базы ЕРАП</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>Оплата онлайн, квитанция сразу</p>
-                    <img src="/static/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
+                    <img src="/img/tick-icon.png" alt="tick-icon" width={24} height={24}/>
                     <p className={card__info}>PUSH-уведомления</p>
                 </div>
             </div>
@@ -72,7 +74,7 @@ const Premium = () => {
                             <p className={card__text}> 3 месяца</p>
                             <div className={text__image}>
                                 <p>&#8776;</p>
-                                <img src="/static/img/ice-cream-icon.png" alt="ice-cream-icon" width={24} height={24}/>
+                                <img src="/img/ice-cream-icon.png" alt="ice-cream-icon" width={24} height={24}/>
                             </div>
                         </div>
                         <div className={circle__black}></div>
@@ -86,7 +88,7 @@ const Premium = () => {
                             <p className={card__text}> 3 месяца</p>
                             <div className={text__image}>
                                 <p>&#8776;</p>
-                                <img src="/static/img/cake-icon.png" alt="cake-icon" width={24} height={24}/>
+                                <img src="/img/cake-icon.png" alt="cake-icon" width={24} height={24}/>
                             </div>
                         </div>
                         <div className={circle__blue}></div>
@@ -100,7 +102,7 @@ const Premium = () => {
                             <p className={card__text}> 3 месяца</p>
                             <div className={text__image}>
                                 <p>&#8776;</p>
-                                <img src="/static/img/dinner-icon.png" alt="dinner-icon" width={24} height={24}/>
+                                <img src="/img/dinner-icon.png" alt="dinner-icon" width={24} height={24}/>
                             </div>
                         </div>
                         <div className={circle__yellow}></div>
@@ -113,7 +115,7 @@ const Premium = () => {
                             <p className={card__text}> Навсегда </p>
                             <div className={text__image}>
                                 <p>&#8776;</p>
-                                <img src="/static/img/whiskey-icon.png" alt="whiskey-icon" width={24} height={24}/>
+                                <img src="/img/whiskey-icon.png" alt="whiskey-icon" width={24} height={24}/>
                             </div>
                         </div>
                         <div className={circle__white}></div>
@@ -121,7 +123,7 @@ const Premium = () => {
                 </div>
             </div>
             <div className={notification}>
-                <img src="/static/img/settings-about-icon.png" alt="settings-about-icon" width={24} height={24}/>
+                <img src="/img/settings-about-icon.png" alt="settings-about-icon" width={24} height={24}/>
                 <p className={text}>При смене автомобиля подписка сохраняется</p>
             </div>
             <button className={add__car}>

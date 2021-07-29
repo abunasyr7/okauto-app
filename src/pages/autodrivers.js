@@ -23,7 +23,8 @@ import {
     popup__number,
     popup__input,
     popup__image,
-    popup__button
+    popup__button,
+    image
 } from "../styles/autodrivers.module.css"
 import {Footer} from "../components/footer";
 import Layout from "../components/Layout";
@@ -39,7 +40,7 @@ const AutoDriver = () => {
                     <div className={header__top}>
                         <Link to="/settings/">
                             <button>
-                                <img src="/static/img/back-button-icon.png" alt="back-button-icon" width={24} height={24}/>
+                                <img src="/img/back-button-icon.png" alt="back-button-icon" width={24} height={24}/>
                             </button>
                         </Link>
                         <button className={header__text}>Изменить</button>
@@ -56,24 +57,24 @@ const AutoDriver = () => {
                     </div>
                 </div>
                 <div className={cars}>
-                    <img src="/static/img/penalties-tab-icon.png" alt="penalties-tab-icon" width={24} height={24}/>
+                    <img src="/img/penalties-tab-icon.png" alt="penalties-tab-icon" width={24} height={24} className={image}/>
                     <div className={car}>
                         <div className={car__info}>
                             <h3 className={car__number}>719 ALA 02</h3>
                             <p className={car__type}>Автомобиль</p>
                         </div>
-                        <img src="/static/img/horizontal-disclosure-icon.png" alt="horizontal-disclosure-icon" width={24} height={24}/>
+                        <img src="/img/horizontal-disclosure-icon.png" alt="horizontal-disclosure-icon" width={24} height={24}/>
                     </div>
                 </div>
                     <button className={add__car}>
                         <h3 className={text__add}>Добавить авто</h3>
-                        <img src="/static/img/plus-icon.png" alt="plus-icon" width={24} height={24}/>
+                        <img src="/img/plus-icon.png" alt="plus-icon" width={24} height={24} className={image}/>
                     </button>
                 <section className={popup}>
                     <div className={popup__body}>
                         <div className={popup__content}>
                             <button className={popup__close}>
-                                <img src="/static/img/close-button-icon.png" alt="close-button-icon" className={popup__image}/>
+                                <img src="/img/close-button-icon.png" alt="close-button-icon" className={popup__image}/>
                             </button>
                             <h2 className={popup__title}>Новое авто</h2>
                             <p className={popup__number}>Госномер авто</p>

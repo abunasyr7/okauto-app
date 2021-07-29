@@ -1,12 +1,16 @@
 @font-face {
-    font-family: "SF Pro Display Light";
-    src: url("../fonts/FontsFree-Net-SFProDisplay-Light.ttf");
-    font-weight: normal;
+    font-family: "SF Pro Display";
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+    font-weight: 500;
 }
 
 @font-face {
-    font-family: "SF Pro Display Bold";
-    src: url("../fonts/SFProDisplay-Bold.ttf");
-    font-weight: bold;
+    font-family: "SF Pro Display";
+    src: url("../fonts/FontsFree-Net-SFProDisplay-Regular.ttf");
+    font-weight: 800;
 }
-
+@font-face {
+    font-family: "SF Pro Display";
+    src: url("../fonts/SFProDisplay-Medium.ttf");
+    font-weight: 600;
+}

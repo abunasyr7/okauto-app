@@ -29,8 +29,8 @@ const Notifications2 = () => {
                             <p className={date}>22 июн. 2021 г., 18:49</p>
                         </div>
                         <div className={info__buttons}>
-                            <img src="/static/img/circled-bell-icon.png" alt="circled-bell-icon"/>
-                            <img src="/static/img/menu-icon.png" alt="menu-icon.png" width={24} height={24}/>
+                            <img src="/img/circled-bell-icon.png" alt="circled-bell-icon"/>
+                            <img src="/img/menu-icon.png" alt="menu-icon.png" width={24} height={24}/>
                         </div>
                     </div>
                     <p className={info__name}>Марат Даукенович, обнаружен штраф</p>

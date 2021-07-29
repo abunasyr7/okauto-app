@@ -32,7 +32,7 @@ const Main = () => {
             <div className={main__body}>
                 <header className= {header}>
                     <img
-                    src="/static/img/okauto-logo-icon.png"
+                    src="/img/okauto-logo-icon.png"
                     alt="okauto-logo-icon" width={76} height={16}
                     />
                     <a href="#" className={login__link}>Войти</a>
@@ -54,8 +54,8 @@ const Main = () => {
                             <h2 className={driver__surname}>Талгатович</h2>
                         </div>
                         <div className={driver__ava}>
-                            <img src="/static/img/placeholder-avatar-male.png" alt="placeholder-avatar-male"/>
-                            <button><img src="/static/img/menu-icon.png" alt="menu-icon"/></button>
+                            <img src="/img/placeholder-avatar-male.png" alt="placeholder-avatar-male"/>
+                            <button><img src="/img/menu-icon.png" alt="menu-icon"/></button>
                         </div>
                     </div>
                 <Link to="/nopenalty/" style={linkStyles}>

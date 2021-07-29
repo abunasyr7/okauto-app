@@ -1,36 +1,66 @@
-
+.main__why {
+    margin: 100px auto 70px auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    border-bottom: lightgray solid 1px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    padding-top: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 2;
+}
+.header__text {
+    margin: 0 auto;
+    font-size: 18px;
+}
+.button {
+    border: none;
+    background-color: white;
+    padding: 0;
+}
+.main__why h2 {
+    margin: 0 0 5px 0;
+}
+.card {
+    margin-bottom: 30px;
+}
+.image {
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 414px) {
+    .main__why {
+        max-width: 390px;
+    }
+}
 
 
 @media screen and (max-width: 375px){
     .main__why {
-        max-width: 98%;
-        margin: 0 auto;
-        margin-top: 30px;
+        max-width: 350px;
+    }
+
+}
+
+@media screen and (max-width: 320px){
+    .main__why {
+        max-width: 300px;
+        margin-top: 70px;
+        margin-bottom: 70px;
     }
     .header {
-        max-width: 100%;
-        display: flex;
-        align-items: center;
-        border-bottom: lightgray solid 1px;
-        padding-bottom: 5px;
-        margin-bottom: 20px;
+
     }
-    .header__text {
-        margin: 0 auto;
-        font-size: 18px;
-    }
-    .button {
-        border: none;
-        background-color: white;
-        padding: 0;
-    }
-    h2 {
-        margin: 0;
-    }
-    .card {
-        margin-bottom: 30px;
-    }
-    .image {
+    .card h2 {
+        font-size: 16px;
         margin-bottom: 10px;
+    }
+    .card p {
+        font-size: 14px;
     }
 }

@@ -20,7 +20,7 @@ const Notifications = () => {
             <div className={main__notifications}>
                 <h1 className={header}>Уведомления</h1>
                 <div className={notifications__text}>
-                    <img src="/static/img/no-notifications-illustration-bell.png" alt="notifications-straight-bell" width={20} height={20} className={bell} />
+                    <img src="/img/no-notifications-illustration-bell.png" alt="notifications-straight-bell" width={20} height={20} className={bell} />
                     <div className={textarea}>
                         <h2 className={textarea__header}>Push-уведомления не включены!</h2>
                         <p className={textarea__text}>Чтобы получить уведомления о штрафах разрешите в настройках телефона.</p>
@@ -29,7 +29,7 @@ const Notifications = () => {
                 </div>
                 <div className={show__notifications}>
                     <h2>Уведомлений пока нет</h2>
-                    <img src="/static/img/no-notifications-illustration.png" alt="no-notifications-illustration" width={200} className={no_notifications}/>
+                    <img src="/img/no-notifications-illustration.png" alt="no-notifications-illustration" width={200} className={no_notifications}/>
                 </div>
             </div>
         </Layout>

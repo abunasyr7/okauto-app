@@ -1,60 +1,103 @@
+/*Каркас приложения - сайта*/
 
+.main__payments {
+    margin: 50px auto 0 auto;
+}
+.header {
+    margin-top: 50px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.payments__header {
+    border-bottom: lightgray solid 1px;
+}
+.penalties__text {
+    margin: 0;
+    border-bottom: #2492ff solid 1px;
+    color: #2492ff;
+    text-transform: uppercase;
+    width: 70px;
+}
+.payments__background {
+    background-image: url("/static/img/cityscape-backdrop-illustration.png");
+    background-repeat: no-repeat;
+}
+.show__payments {
+    display: flex;
+    justify-content: space-between;
+    z-index: -1;
+    min-height: 40px;
+    align-items: center;
+}
+.info__sum {
+    margin: 0;
+}
+.info__name {
+    text-transform: uppercase;
+    color: rgba(84,81,87,0.71);
+}
+.info__date {
+    margin: 0;
+    color: rgba(84,81,87,0.71);
+}
+.payments__date {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+/*Размеры для IPhone 6/7/8 Plus */
+@media screen and (max-width: 415px){
+    .main__payments {
+        max-width: 390px;
+    }
+    .header {
+        font-size: 25px;
+    }
+    .show__payments {
+        padding: 10px 0 10px 0;
+    }
+}
+
+/* Размеры для IPhone 6/7/8/X */
 @media screen and (max-width: 375px){
     .main__payments {
         max-width: 350px;
-        margin: 0 auto;
-        margin-top: 30px;
     }
     .header {
-        margin-top: 50px;
         font-size: 25px;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-    }
-    .payments__header {
-        border-bottom: lightgray solid 1px;
-    }
-    .penalties__text {
-        margin: 0;
-        width: 70px;
-        border-bottom: #2492ff solid 1px;
-        color: #2492ff;
-        text-transform: uppercase;
     }
     .payments__background {
         height: 550px;
-        background-image: url("/static/img/cityscape-backdrop-illustration.png");
-        background-repeat: no-repeat;
     }
     .show__payments {
-        display: flex;
-        justify-content: space-between;
-        z-index: -1;
-        mi-height: 40px;
-        align-items: center;
         margin-top: 15px;
     }
-    .payments__info {
-    }
-    .info__sum {
-        margin: 0;
-    }
     .info__name {
-        margin: 0;
-        text-transform: uppercase;
-        color: rgba(84,81,87,0.71);
         margin-top: 5px;
     }
     .info__date {
-        margin: 0;
         font-size: 15px;
-        color: rgba(84,81,87,0.71);
     }
     .payments__date {
-        display: flex;
         width: 130px;
-        justify-content: space-between;
-        align-items: center;
+    }
+}
+
+
+/* Размеры для IPhone 5S/SE */
+@media screen and (max-width: 320px){
+    .main__payments {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+    .header {
+        margin-top: 15px;
+    }
+    .penalties__text {
+        font-size: 14px;
+    }
+    .info__name {
+        font-size: 14px;
     }
 }

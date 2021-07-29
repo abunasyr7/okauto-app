@@ -22,7 +22,7 @@ const Payments = () => {
             <div className={main__payments}>
                 <Link to="/settings/">
                     <button>
-                        <img src="/static/img/back-button-icon.png" alt="back-button-icon"/>
+                        <img src="/img/back-button-icon.png" alt="back-button-icon"/>
                     </button>
                 </Link>
                 <h1 className={header}>Платежи</h1>
@@ -38,7 +38,7 @@ const Payments = () => {
                         </div>
                         <div className={payments__date}>
                             <p className={info__date}>30 июл. 2018 г.</p>
-                            <img src="/static/img/horizontal-disclosure-icon.png" alt="horizontal-disclosure-icon"/>
+                            <img src="/img/horizontal-disclosure-icon.png" alt="horizontal-disclosure-icon"/>
                         </div>
                     </div>
                 </div>

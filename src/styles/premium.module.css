@@ -1,165 +1,220 @@
-
 button {
     background-color: white;
     border: none;
     padding: 0;
 }
+
+.main__premium {
+    margin: 0 auto;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    background-color: white;
+    z-index: 4;
+}
+.header__premium {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    max-width: 95%;
+}
+.header__text {
+    max-width: 100%;
+    text-align: left;
+    font-size: 35px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.info__payments {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.info__section {
+    width: 48%;
+    min-height: 200px;
+    text-align: center;
+    background-color: #ffd503;
+    border-radius: 10px;
+}
+.info__section p {
+    font-size: 14px;
+}
+.info__section p:last-child {
+    margin-bottom: 5px;
+}
+.info__section:nth-child(2) {
+    background-color: lightgray;
+}
+.main__premium h4 {
+    margin: 15px auto 10px auto;
+    text-transform: uppercase;
+    max-width: 150px;
+    font-size: 14px;
+}
+.card__info {
+    margin: 0 auto 10px auto;
+    text-align: center;
+    max-width: 160px;
+}
+.main__premium h5 {
+    margin: 10px auto 0 10px;
+}
+.mini__cards {
+    display: grid;
+    margin: 0 auto 20px auto;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 12px;
+}
+.mini__card {
+    box-shadow: 3px 2px 20px 1px rgba(41, 64, 81, 0.2);
+    border-radius: 10px;
+}
+.mini__card:nth-child(4) {
+    background-color: #2492ff;
+    color: white;
+}
+.card__text {
+    margin-left: 10px;
+}
+.border__black {
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+}
+.border__blue {
+    width: 100%;
+    height: 5px;
+    background-color: #2492ff;
+    border-radius: 10px 10px 0 0;
+}
+.border__yellow {
+    width: 100%;
+    height: 5px;
+    background-color: #ffd503;
+    border-radius: 10px 10px 0 0;
+}
+.border__card:nth-child(4) {
+    background-color: #2492ff;
+}
+.text__image {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.card__section {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    align-items: center;
+}
+.circle__black {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: black solid 1px;
+}
+.circle__blue {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: #2492ff solid 1px;
+}
+.circle__yellow {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: #ffd503 solid 1px;
+}
+.circle__white {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: white solid 1px;
+}
+.notification {
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.text {
+    color: lightgray;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.add__car {
+    width: 100%;
+    display: flex;
+    font-weight: bold;
+    background-color: #ffd503;
+    border-radius: 10px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
 @media screen and (max-width: 375px) {
     .main__premium {
         max-width: 350px;
-        margin: 0 auto;
     }
-
     .header__premium {
-        width: 100%;
-        display: flex;
-        margin: 0;
-        justify-content: space-between;
-        align-items: center;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .main__premium {
+        max-width: 300px;
         margin-bottom: 20px;
     }
-
+    .header {
+        width: 100%;
+        padding-top: 20px;
+    }
+    .header__premium {
+        width: 300px;
+        display: flex;
+        margin: 0 auto;
+    }
     .header__text {
-        margin: 0;
-        max-width: 100%;
-        text-align: left;
-        font-size: 35px;
-        margin-bottom: 20px;
+        font-size: 30px;
     }
-    .info__payments {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 20px;
+    .info__section h4 {
+        font-size: 12px;
     }
-
-    .info__section {
-        width: 48%;
-        min-height: 200px;
-        text-align: center;
-        background-color: #ffd503;
-        border-radius: 10px;
+    .info__section p {
+        font-size: 12px;
     }
-    .info__section:nth-child(2) {
-        background-color: lightgray;
+    .info__section h4:nth-child(2) {
+        margin-bottom: 0;
     }
-    h4 {
-        margin: 0 auto;
-        margin-top: 15px;
-        text-transform: uppercase;
-        max-width: 150px;
-        font-size: 15px;
-        margin-bottom: 10px;
+    .mini__cards h5{
+        font-size: 12px;
     }
-    .card__info {
-        margin: 0 auto;
-        margin-bottom: 10px;
-        text-align: center;
-        max-width: 160px;
+    .mini__cards p{
+        font-size: 12px;
     }
-    h5 {
-        margin: 0;
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .mini__cards {
-        display: grid;
-        margin: 0 auto;
-        width: 100%;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 12px;
-        margin-bottom: 20px;
-    }
-    .mini__card {
-        box-shadow: 3px 2px 20px 1px rgba(41, 64, 81, 0.2);
-        border-radius: 10px;
-    }
-    .mini__card:nth-child(4) {
-        background-color: #2492ff;
-        color: white;
-    }
-    .card__text {
-        margin-left: 10px;
-    }
-    .border__black {
-        width: 100%;
-        height: 5px;
-        background-color: black;
-        border-radius: 10px 10px 0 0;
-    }
-    .border__blue {
-        width: 100%;
-        height: 5px;
-        background-color: #2492ff;
-        border-radius: 10px 10px 0 0;
-    }
-    .border__yellow {
-        width: 100%;
-        height: 5px;
-        background-color: #ffd503;
-        border-radius: 10px 10px 0 0;
-    }
-    .border__card:nth-child(4) {
-        background-color: #2492ff;
-    }
-    .text__image {
-        margin-left: 10px;
-        display: flex;
-        align-items: center;
-        margin-bottom: 10px;
-    }
-    .card__section {
-        display: grid;
-        grid-template-columns: 80% 20%;
-        align-items: center;
-    }
-    .circle__black {
+    .text__image img {
         width: 20px;
         height: 20px;
-        border-radius: 50%;
-        border: black solid 1px;
     }
-    .circle__blue {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: #2492ff solid 1px;
-    }
-    .circle__yellow {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: #ffd503 solid 1px;
-    }
-    .circle__white {
-        width: 20px;
-        height: 20px;
-        border-radius: 50%;
-        border: white solid 1px;
-    }
-    .notification {
-        border: lightgray solid 1px;
-        border-radius: 10px;
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        padding-top: 10px;
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-    }
-    .text {
-        color: lightgray;
-        font-size: 15px;
+    .notification p {
+        font-size: 12px;
+        padding-right: 10px;
     }
     .add__car {
-        width: 100%;
-        font-weight: bold;
-        background-color: #ffd503;
-        border-radius: 10px;
-        font-size: 20px;
-        padding-bottom: 10px;
-        padding-top: 10px;
-        margin-bottom: 20px;
+        font-size: 16px;
     }
 }

@@ -1,97 +1,145 @@
+.main__nopenalty {
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.header__text {
+    margin: 10px 0 20px 0;
+    font-size: 40px;
+}
+.header {
+    margin-top: 50px;
+}
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: lightgray solid 1px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+.profile__info{
+    font-size: 25px;
+}
+.no__penalty {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+.info2 {
+    margin: 0;
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.text1 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.identic__number {
+    font-size: 16px;
+    font-weight: normal;
+    margin: 5px 0 0 0;
+}
+.source {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.erap {
+    max-width: 90%;
+}
+.on__notif {
+    margin-top: auto;
+    background-color: #ffd503;
+    font-size: 18px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    width: 95%;
+}
+.plus__info {
+    margin-top: auto;
+    border-top: lightgray solid 1px;
+    padding-top: 15px;
+    position: fixed;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+}
+.add__info {
+    margin: 0;
+    font-size: 22px;
+}
+.info__position {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-
+@media screen and (max-width: 415px){
+    .main__nopenalty {
+        max-width: 390px;
+    }
+}
 @media screen and (max-width: 375px){
     .main__nopenalty {
-        max-width: 98%;
-        height: 100%;
-        margin: 0 auto;
-        display: flex;
-        flex-direction: column;
+        max-width: 350px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .main__nopenalty {
+        max-width: 300px;
+        margin-bottom: 70px;
     }
     .header {
-        margin-top: 50px;
+        margin-top: 30px;
     }
-    .close__button{
-
+    .header__text {
+        font-size: 24px;
+        margin-bottom: 15px;
     }
-    .header__text{
-        margin: 0;
-        font-size: 40px;
-        margin-top: 10px;
-        margin-bottom: 20px;
+    .profile__info {
+        font-size: 18px;
     }
-    .profile{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: lightgray solid 1px;
-        padding-bottom: 15px;
-        margin-bottom: 20px;
-    }
-    .profile__info{
-        font-size: 25px;
-    }
-    .no__penalty {
-        display: flex;
-        flex-direction: column;
-        margin: 0 auto;
-        align-items: center;
+    .image {
+        width: 32px;
+        height: 32px;
     }
     .info2 {
-        margin: 0;
-        font-size: 25px;
-        margin-top: 15px;
-        margin-bottom: 15px;
+        font-size: 15px;
     }
-    .text1 {
-        text-align: center;
-        font-size: 16px;
-        margin-bottom: 15px;
-    }
-    .identic__number {
-        font-size: 16px;
-        font-weight: normal;
-        margin: 0;
-        margin-top: 5px;
-    }
-    .source {
-        display: flex;
-        align-items:center;
-        justify-content: space-between;
-        margin-bottom: 20px;
-    }
-    .erap {
-        max-width: 90%;
+    .no__penalty p {
+        font-size: 14px;
     }
     .on__notif {
-        margin-top: auto;
-        background-color: #ffd503;
-        font-size: 18px;
-        padding-top: 15px;
-        border-radius: 10px;
-        padding-bottom: 15px;
-        margin-bottom: 20px;
-        font-weight: bold;
-        width: 95%;
+        margin: 0 auto;
+        font-size: 16px;
+        font-family: "SF Pro Display";
     }
     .plus__info {
-        margin-top: auto;
-        border-top: lightgray solid 1px;
-        padding-top: 15px;
-        position: fixed;
-        bottom: 30px;
-        left: 0;
-        width: 100%;
+        bottom: 5px;
+        padding-top: 10px;
     }
     .add__info {
-        margin: 0;
-        font-size: 22px;
+        font-size: 18px;
+        font-family: "SF Pro Display";
+        font-weight: 600;
     }
     .info__position {
-        width: 95%;
+        max-width: 300px;
         margin: 0 auto;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
     }
 }
