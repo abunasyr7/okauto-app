@@ -85,43 +85,13 @@ button {
 .text__add {
     color: #2492ff;
 }
-.popup {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color:rgba(0, 0, 0, 0.8);
-    top: 0;
-    left: 0;
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.8s ease 0s;
-}
-.popup__body {
-    min-height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 30px 10px;
-}
 
-.popup__content {
-    background-color: white;
-    color: #000;
-    width: 280px;
-    height: 240px;
-    border-radius: 10px;
-    position: relative;
-    padding: 0 20px;
-}
 
-.popup__image {
-    margin: 0;
-    margin-top: 20px;
-}
-.popup__title {
-    margin-top: 5px;
-    margin-left: 2px;
-}
+
+
+
+
+
 .popup__number {
     margin-top: 10px;
     font-size: 12px;

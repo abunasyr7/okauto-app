@@ -70,21 +70,6 @@ const AutoDriver = () => {
                         <h3 className={text__add}>Добавить авто</h3>
                         <img src="/img/plus-icon.png" alt="plus-icon" width={24} height={24} className={image}/>
                     </button>
-                <section className={popup}>
-                    <div className={popup__body}>
-                        <div className={popup__content}>
-                            <button className={popup__close}>
-                                <img src="/img/close-button-icon.png" alt="close-button-icon" className={popup__image}/>
-                            </button>
-                            <h2 className={popup__title}>Новое авто</h2>
-                            <p className={popup__number}>Госномер авто</p>
-                            <form action="">
-                                <input  className={popup__input}/>
-                                <button className={popup__button}>Добавить</button>
-                            </form>
-                        </div>
-                    </div>
-                </section>
             </section>
         </Layout>
     )
