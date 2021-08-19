@@ -1,0 +1,36 @@
+.notifications__main {
+    height: 500px;
+    background-image: url("../../../../../okauto/src/images/cityscape-backdrop-illustration.png");
+    background-position: top;
+    display: flex;
+    flex-direction: column;
+}
+
+.notifications__main img {
+    position: absolute;
+}
+
+@media screen and (max-width: 415px) {
+    .notifications__main img {
+        top: 60%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .notifications__main img {
+        top: 50%;
+        left: 25%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .notifications__main {
+        height: 310px;
+    }
+
+    .notifications__main img {
+        top: 55%;
+        left: 20%;
+    }
+}

@@ -1,0 +1,44 @@
+.insurance-gift {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: #ffd503 solid 1px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.insurance-gift p {
+    margin: 0;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 415px) {
+    .insurance-gift {
+        width: 370px;
+    }
+    .insurance-gift p {
+        margin-left: 5px;
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .insurance-gift {
+        width: 100%;
+    }
+    .insurance-gift p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .insurance-gift {
+        width: 300px;
+        justify-content: space-between;
+    }
+
+    .insurance-gift p {
+        font-size: 12px;
+        padding-right: 30px;
+    }
+}

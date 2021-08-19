@@ -1,0 +1,28 @@
+.card {
+    min-height: 120px;
+    border-radius: 10px;
+    border: lightgray solid 1px;
+    align-items: center;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+@media screen and (max-width: 415px){
+    .card {
+        max-width: 390px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .card {
+        padding: 0 5px;
+        margin-bottom: 15px;
+    }
+    .card h2 {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,25 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 415px){
+    .header {
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .header {
+        margin: 50px auto 20px auto;
+        font-size: 20px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .header {
+        margin-top: 10px;
+    }
+}

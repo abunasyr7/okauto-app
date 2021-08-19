@@ -1,0 +1,16 @@
+.popup-auto h4 {
+    margin: 0;
+    font-size: 22px;
+}
+
+.popup-auto p {
+    color: lightgrey;
+    font-size: 14px;
+    margin: 0;
+}
+
+.popup-auto input {
+    width: 100%;
+    background-color: lightgrey;
+    letter-spacing: 1em;
+}

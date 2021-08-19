@@ -1,0 +1,5 @@
+.menu__image {
+    margin: 0 auto;
+    display: flex;
+    justify-self: center;
+}

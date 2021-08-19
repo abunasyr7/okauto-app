@@ -1,0 +1,5 @@
+.settings__list {
+    list-style: none;
+    padding: 0;
+    justify-items: flex-start;
+}

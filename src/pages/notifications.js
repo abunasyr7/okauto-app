@@ -1,37 +1,29 @@
 import * as React from "react"
-import {Footer} from "../components/footer.js";
-import {
-    header,
-    main__notifications,
-    bell,
-    notifications__text,
-    textarea,
-    textarea__header,
-    textarea__text,
-    textarea__link,
-    show__notifications,
-    no_notifications,
-} from '../styles/notifications.module.css'
 import Layout from "../components/Layout";
+import App from "../components/App";
+import MainHeader from "../components/MainHeader";
+import '../styles/notifications.css'
 
-const Notifications = () => {
+function Notifications () {
     return (
         <Layout>
-            <div className={main__notifications}>
-                <h1 className={header}>Уведомления</h1>
-                <div className={notifications__text}>
-                    <img src="/img/no-notifications-illustration-bell.png" alt="notifications-straight-bell" width={20} height={20} className={bell} />
-                    <div className={textarea}>
-                        <h2 className={textarea__header}>Push-уведомления не включены!</h2>
-                        <p className={textarea__text}>Чтобы получить уведомления о штрафах разрешите в настройках телефона.</p>
-                        <a href="#" className={textarea__link}>Перейти в настройки</a>
+            <App>
+                <MainHeader
+                    name = "Уведомления"
+                />
+                <div className = "notifications__on">
+                    <img src = "/img/no-notifications-illustration-bell.png" alt="notifications-straight-bell" width={20} height={20} />
+                    <div className="notifications__text">
+                        <h2 className="">Push-уведомления не включены!</h2>
+                        <p className="">Чтобы получить уведомления о штрафах разрешите в настройках телефона.</p>
+                        <a href="/" className="">Перейти в настройки</a>
                     </div>
                 </div>
-                <div className={show__notifications}>
+                <div className="notifications__main">
                     <h2>Уведомлений пока нет</h2>
-                    <img src="/img/no-notifications-illustration.png" alt="no-notifications-illustration" width={200} className={no_notifications}/>
+                    <img src = "/img/no-notifications-illustration.png" alt="no-notifications-illustration" width={200} />
                 </div>
-            </div>
+            </App>
         </Layout>
     )
 }

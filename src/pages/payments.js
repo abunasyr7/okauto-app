@@ -12,7 +12,7 @@ import {
     info__date,
     payments__date,
 } from '../styles/payments.module.css'
-import {Footer} from "../components/footer";
+import {Footer} from "../components/Footer";
 import Layout from "../components/Layout";
 import {Link} from "gatsby";
 

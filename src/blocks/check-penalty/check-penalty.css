@@ -1,0 +1,40 @@
+.check-penalty {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: lightgray solid 1px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.check-penalty h2 {
+    margin: 0 auto 5px auto;
+    font-size: 18px;
+}
+
+.check-penalty p {
+    margin: 0;
+    font-size: 15px;
+}
+
+.check-penalty button {
+    margin: 0;
+    font-size: 30px;
+    color: dodgerblue;
+}
+
+@media screen and (max-width: 320px){
+    .check-penalty {
+        justify-content: space-between;
+        padding: 5px 15px;
+        margin-bottom: 15px;
+    }
+
+    .check-penalty h2 {
+        font-size: 16px;
+    }
+
+    .check-penalty p {
+        font-size: 12px;
+    }
+}

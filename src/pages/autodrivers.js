@@ -26,7 +26,7 @@ import {
     popup__button,
     image
 } from "../styles/autodrivers.module.css"
-import {Footer} from "../components/footer";
+import {Footer} from "../components/Footer";
 import Layout from "../components/Layout";
 import {Link} from "gatsby";
 

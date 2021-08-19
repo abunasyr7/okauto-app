@@ -1,0 +1,11 @@
+.card__title {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+
+@media screen and (max-width: 415px){
+    .card__title {
+        margin: 10px 10px;
+    }
+}

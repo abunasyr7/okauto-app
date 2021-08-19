@@ -1,0 +1,27 @@
+.settings__section {
+    display: flex;
+    margin: 0 auto 15px 10px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: lightgray solid 1px;
+    padding-bottom: 10px;
+    width: 100%;
+}
+
+.settings__section a {
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    align-self: center;
+}
+@media screen and (max-width: 415px) {
+    .settings__section a {
+        font-size: 19px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .settings__section a {
+        font-size: 15px;
+    }
+}

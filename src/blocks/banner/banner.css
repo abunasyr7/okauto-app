@@ -1,0 +1,27 @@
+.banner {
+    height: 110px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+@media screen and (max-width: 415px){
+    .banner {
+        margin-bottom: 30px;
+        background-image: url("http://lorempixel.com/390/110");
+    }
+}
+
+@media screen and (max-width: 375px){
+    .banner {
+        margin-bottom: 30px;
+        background-image: url("http://lorempixel.com/320/100");
+    }
+}
+
+@media screen and (max-width: 320px){
+    .banner {
+        height: 75px;
+        background-image: url("http://lorempixel.com/320/75");
+    }
+}

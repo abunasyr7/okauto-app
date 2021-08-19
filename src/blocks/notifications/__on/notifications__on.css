@@ -1,0 +1,32 @@
+.notifications__on {
+    width: 100%;
+    min-height: 100px;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgba(158,158,158,0.16);
+    justify-content: space-around;
+    align-items: center;
+    border: lightgray solid 1px;
+}
+
+.notifications__on img {
+    align-self: self-start;
+}
+
+@media screen and (max-width: 415px) {
+    .notifications__on img {
+        margin-top: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .notifications__on img {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .notifications__on {
+        margin-bottom: 10px;
+    }
+}

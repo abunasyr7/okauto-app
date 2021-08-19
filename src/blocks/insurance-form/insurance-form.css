@@ -1,0 +1,47 @@
+.insurance-form input {
+    display: block;
+    border: none;
+    border-bottom: lightgray solid 1px;
+    padding-bottom: 10px;
+    width: 95%;
+    margin-left: 10px;
+}
+
+.insurance-form p {
+    color: rgba(84,81,87,0.71);
+}
+
+.insurance-form input:active {
+    border: none;
+}
+
+@media screen and (max-width: 415px) {
+    .insurance-form input {
+        font-size: 19px;
+    }
+
+    .insurance-form p {
+        font-size: 16px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .insurance-form input {
+        font-size: 18px;
+    }
+
+    .insurance-form p {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .insurance-form input {
+        width: 270px;
+    }
+
+    .insurance-form p {
+        font-size: 14px;
+    }
+}
