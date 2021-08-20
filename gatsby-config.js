@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: "okauto-app",
+    title: "okauto-gatsby-app",
   },
   plugins: [
       "gatsby-plugin-gatsby-cloud",
