@@ -15,10 +15,11 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@apollo/client": "^3.4.10",
     "@capacitor/cli": "^3.1.1",
     "@capacitor/core": "^3.1.1",
     "@capacitor/ios": "^3.1.1",
-    "gatsby": "^3.6.2",
+    "gatsby": "^3.13.0",
     "gatsby-plugin-gatsby-cloud": "^2.7.1",
     "gatsby-plugin-image": "^1.7.1",
     "gatsby-plugin-sharp": "^3.7.1",

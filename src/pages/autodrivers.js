@@ -15,18 +15,8 @@ import {
     car__type,
     text__add,
     add__car,
-    popup,
-    popup__body,
-    popup__content,
-    popup__close,
-    popup__title,
-    popup__number,
-    popup__input,
-    popup__image,
-    popup__button,
     image
 } from "../styles/autodrivers.module.css"
-import {Footer} from "../components/Footer";
 import Layout from "../components/Layout";
 import {Link} from "gatsby";
 

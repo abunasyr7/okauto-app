@@ -1,6 +1,6 @@
 .notifications__main {
     height: 500px;
-    background-image: url("../../../../../okauto/src/images/cityscape-backdrop-illustration.png");
+    background-image: url("../../../../static/img/cityscape-backdrop-illustration.png");
     background-position: top;
     display: flex;
     flex-direction: column;
