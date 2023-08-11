@@ -1,10 +1,11 @@
 import React from 'react';
-import {StyleSheet, View, Text} from 'react-native';
+import {StyleSheet, View} from 'react-native';
+import {ListOfSettings} from '../components/ListOfSettings';
 
 export const Notifications: React.FC = () => {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <ListOfSettings />
     </View>
   );
 };

@@ -77,7 +77,6 @@ export const notificationsStraightBellIcon = require('../../../assets/images/not
 export const notificationsStraightBellNoFillIcon = require('../../../assets/images/notifications-straight-bell-no-fill-icon.png');
 export const notificationsTabIcon = require('../../../assets/images/notifications-tab-icon.png');
 export const okautoLogoIcon = require('../../../assets/images/okauto-logo-icon.png');
-export const penaltiesTabIconActive = require('../../../assets/images/penalties-tab-icon-active.png');
 export const penaltiesTabIcon = require('../../../assets/images/penalties-tab-icon.png');
 export const phoneTapIcon = require('../../../assets/images/phone-tap-icon.png');
 export const placeholderAvatarFemale = require('../../../assets/images/placeholder-avatar-female.png');
