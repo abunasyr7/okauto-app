@@ -10,7 +10,7 @@ import {
   penaltiesTabIcon,
   settingsTabIcon,
   notificationsTabIcon,
-} from '../resources/images.gen';
+} from '../resources/__generated__/images.gen';
 
 const BottomTabs = createBottomTabNavigator();
 
